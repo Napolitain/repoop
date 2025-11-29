@@ -1,0 +1,12 @@
+[package]
+name = "repoop"
+version = "0.1.0"
+edition = "2021"
+description = "Performance Optimizer Observation Platform - A Linux benchmarking tool"
+license = "MIT"
+
+[dependencies]
+perf-event = { path = "perf-event/perf-event" }
+libc = "0.2"
+clap = { version = "4", features = ["derive"] }
+crossterm = "0.28"
